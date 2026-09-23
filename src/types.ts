@@ -2,10 +2,8 @@ export type Rol = "ADMIN" | "CLIENTE";
 
 export type EstadoPedido =
   | "PENDIENTE"
-  | "EN_PREPARACION"
   | "ENVIADO"
-  | "ENTREGADO"
-  | "CANCELADO";
+  | "ENTREGADO";
 
 export interface Pedido {
   id: number;
