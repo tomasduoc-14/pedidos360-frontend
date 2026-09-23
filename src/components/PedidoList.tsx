@@ -2,18 +2,14 @@ import type { EstadoPedido, Pedido, Rol } from "../types";
 
 const ESTADOS: EstadoPedido[] = [
   "PENDIENTE",
-  "EN_PREPARACION",
   "ENVIADO",
   "ENTREGADO",
-  "CANCELADO",
 ];
 
 const ETIQUETA_ESTADO: Record<EstadoPedido, string> = {
   PENDIENTE: "Pendiente",
-  EN_PREPARACION: "En preparación",
   ENVIADO: "Enviado",
   ENTREGADO: "Entregado",
-  CANCELADO: "Cancelado",
 };
 
 interface Props {
